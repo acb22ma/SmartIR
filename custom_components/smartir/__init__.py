@@ -2,7 +2,7 @@ import aiofiles
 import aiohttp
 import asyncio
 import binascii
-from distutils.version import StrictVersion
+from packaging.version import Version as StrictVersion
 import json
 import logging
 import os.path
