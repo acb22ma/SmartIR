@@ -22,7 +22,7 @@ from .controller import get_controller
 _LOGGER = logging.getLogger(__name__)
 
 DEFAULT_NAME = "SmartIR Climate"
-DEFAULT_DELAY = 0.5
+DEFAULT_DELAY = 0.15
 
 CONF_UNIQUE_ID = 'unique_id'
 CONF_DEVICE_CODE = 'device_code'
